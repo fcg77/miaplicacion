@@ -1,23 +1,17 @@
 import logo from './logo.svg';
 import './App.css';
+import Usuario from './componentes/Usuario';
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      
+    <Usuario color="blue" nombre="Maria" cargo="Gerente General" conoceme="cv de Maria" imagen={require('/publi/>
+    <Usuario color="blue" nombre="Luis" cargo="Almacen" conoceme="cv de Maria"/>
+    <Usuario color="blue" nombre="Pedro" cargo="Portero" conoceme="cv de Maria"/>
+    <Usuario color="blue" nombre="Moreno" cargo="Físico" conoceme="cv de Maria"/>
+
     </div>
   );
 }
