@@ -10,7 +10,7 @@ export default function Usuario(props) {
                 <div className="card-body">
                     <h5 className="card-title">{props.nombre}</h5>
                     <p className="card-text">{props.cargo}</p>
-                    <a href="#" className="btn btn-color">{props.conoceme}</a>
+                    <a href="#" className="btn btn-warning">{props.conoceme}</a>
                 </div>
             </div>
         </div>
